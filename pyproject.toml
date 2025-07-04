@@ -1,0 +1,15 @@
+[project]
+name = "mcp_server_deployment"
+version = "0.1.0"
+description = "A Python project using FastMCP, Pydantic, and BeautifulSoup"
+authors = ["Vikram Bhat <vikrambhat249@gmail.com>"]
+requires-python = ">=3.10"
+
+dependencies = [
+    "requests",
+    "python-dotenv",
+    "pydantic",
+    "fastmcp",
+    "beautifulsoup4"
+]
+
